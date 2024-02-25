@@ -33,7 +33,7 @@ public class Coding {
         for (int i = 0; i < arr.length; i++) {
             if (i == middleIndex)
                 continue;
-            else if (arr[middleIndex] > arr[i])
+            else if (arr[middleIndex] >= arr[i])
                 return 0;
         }
 
